@@ -1,0 +1,82 @@
+expense_id,employee_id,expense_date,vendor,amount,description
+EX001,110,2024-06-08,Amazon Business,550.17,Amazon Business expense for business trip or office use
+EX002,101,2024-06-23,Delta Airlines,586.44,Delta Airlines expense for business trip or office use
+EX003,104,2024-06-29,Delta Airlines,76.7,Delta Airlines expense for business trip or office use
+EX004,106,2024-06-17,Delta Airlines,252.3,Delta Airlines expense for business trip or office use
+EX005,108,2024-06-18,Staples,162.47,Staples expense for business trip or office use
+EX006,110,2024-06-16,Amazon Business,256.55,Amazon Business expense for business trip or office use
+EX007,108,2024-06-07,Uber,130.18,Uber expense for business trip or office use
+EX008,107,2024-06-14,Hilton Hotels,399.44,Hilton Hotels expense for business trip or office use
+EX009,101,2024-06-02,Delta Airlines,392.23,Delta Airlines expense for business trip or office use
+EX010,106,2024-06-08,Delta Airlines,212.85,Delta Airlines expense for business trip or office use
+EX011,109,2024-06-05,Uber,408.6,Uber expense for business trip or office use
+EX012,105,2024-06-08,Uber,793.31,Uber expense for business trip or office use
+EX013,102,2024-06-26,Uber,782.15,Uber expense for business trip or office use
+EX014,109,2024-06-02,Delta Airlines,604.32,Delta Airlines expense for business trip or office use
+EX015,109,2024-06-03,Delta Airlines,837.41,Delta Airlines expense for business trip or office use
+EX016,104,2024-06-14,Staples,462.79,Staples expense for business trip or office use
+EX017,104,2024-06-29,Uber,99.84,Uber expense for business trip or office use
+EX018,107,2024-06-13,Delta Airlines,275.42,Delta Airlines expense for business trip or office use
+EX019,108,2024-06-14,Hilton Hotels,642.1,Hilton Hotels expense for business trip or office use
+EX020,109,2024-06-05,Uber,211.41,Uber expense for business trip or office use
+EX021,104,2024-06-19,Delta Airlines,675.38,Delta Airlines expense for business trip or office use
+EX022,101,2024-06-02,Hilton Hotels,92.62,Hilton Hotels expense for business trip or office use
+EX023,108,2024-06-30,Amazon Business,774.81,Amazon Business expense for business trip or office use
+EX024,103,2024-07-01,Delta Airlines,481.65,Delta Airlines expense for business trip or office use
+EX025,103,2024-06-20,Delta Airlines,107.77,Delta Airlines expense for business trip or office use
+EX026,104,2024-06-04,Uber,850.36,Uber expense for business trip or office use
+EX027,110,2024-06-19,Staples,555.34,Staples expense for business trip or office use
+EX028,110,2024-06-14,Delta Airlines,608.77,Delta Airlines expense for business trip or office use
+EX029,110,2024-06-11,Amazon Business,844.5,Amazon Business expense for business trip or office use
+EX030,104,2024-06-08,Hilton Hotels,275.77,Hilton Hotels expense for business trip or office use
+EX031,103,2024-06-15,Hilton Hotels,318.75,Hilton Hotels expense for business trip or office use
+EX032,102,2024-06-15,Delta Airlines,577.99,Delta Airlines expense for business trip or office use
+EX033,110,2024-06-03,Delta Airlines,506.99,Delta Airlines expense for business trip or office use
+EX034,109,2024-06-05,Hilton Hotels,843.27,Hilton Hotels expense for business trip or office use
+EX035,102,2024-06-12,Staples,292.24,Staples expense for business trip or office use
+EX036,108,2024-06-23,Amazon Business,307.14,Amazon Business expense for business trip or office use
+EX037,109,2024-06-22,Delta Airlines,744.54,Delta Airlines expense for business trip or office use
+EX038,105,2024-07-01,Delta Airlines,796.41,Delta Airlines expense for business trip or office use
+EX039,105,2024-06-29,Delta Airlines,140.98,Delta Airlines expense for business trip or office use
+EX040,109,2024-06-09,Staples,289.49,Staples expense for business trip or office use
+EX041,104,2024-06-07,Hilton Hotels,634.37,Hilton Hotels expense for business trip or office use
+EX042,105,2024-06-16,Amazon Business,263.45,Amazon Business expense for business trip or office use
+EX043,101,2024-06-21,Delta Airlines,410.04,Delta Airlines expense for business trip or office use
+EX044,105,2024-06-01,Delta Airlines,333.52,Delta Airlines expense for business trip or office use
+EX045,103,2024-06-06,Hilton Hotels,680.05,Hilton Hotels expense for business trip or office use
+EX046,109,2024-06-18,Uber,58.22,Uber expense for business trip or office use
+EX047,102,2024-06-18,Staples,80.62,Staples expense for business trip or office use
+EX048,106,2024-06-18,Amazon Business,175.88,Amazon Business expense for business trip or office use
+EX049,103,2024-06-10,Delta Airlines,359.95,Delta Airlines expense for business trip or office use
+EX050,101,2024-06-07,Hilton Hotels,629.76,Hilton Hotels expense for business trip or office use
+EX051,102,2024-06-25,Hilton Hotels,525.9,Hilton Hotels expense for business trip or office use
+EX052,107,2024-06-24,Amazon Business,181.37,Amazon Business expense for business trip or office use
+EX053,104,2024-06-26,Staples,739.16,Staples expense for business trip or office use
+EX054,107,2024-06-06,Delta Airlines,676.08,Delta Airlines expense for business trip or office use
+EX055,106,2024-06-26,Uber,619.42,Uber expense for business trip or office use
+EX056,104,2024-06-06,Hilton Hotels,719.27,Hilton Hotels expense for business trip or office use
+EX057,102,2024-06-28,Uber,82.92,Uber expense for business trip or office use
+EX058,108,2024-06-07,Staples,744.1,Staples expense for business trip or office use
+EX059,108,2024-06-10,Hilton Hotels,747.46,Hilton Hotels expense for business trip or office use
+EX060,104,2024-06-01,Staples,611.03,Staples expense for business trip or office use
+EX061,107,2024-06-09,Hilton Hotels,784.7,Hilton Hotels expense for business trip or office use
+EX062,105,2024-06-21,Hilton Hotels,482.99,Hilton Hotels expense for business trip or office use
+EX063,109,2024-07-01,Hilton Hotels,73.46,Hilton Hotels expense for business trip or office use
+EX064,105,2024-06-19,Staples,868.15,Staples expense for business trip or office use
+EX065,105,2024-06-04,Delta Airlines,557.09,Delta Airlines expense for business trip or office use
+EX066,106,2024-06-14,Hilton Hotels,565.28,Hilton Hotels expense for business trip or office use
+EX067,109,2024-06-13,Delta Airlines,814.58,Delta Airlines expense for business trip or office use
+EX068,104,2024-06-02,Hilton Hotels,652.47,Hilton Hotels expense for business trip or office use
+EX069,101,2024-06-30,Amazon Business,735.53,Amazon Business expense for business trip or office use
+EX070,104,2024-06-14,Hilton Hotels,109.48,Hilton Hotels expense for business trip or office use
+EX071,106,2024-06-11,Amazon Business,613.88,Amazon Business expense for business trip or office use
+EX072,102,2024-06-17,Hilton Hotels,312.89,Hilton Hotels expense for business trip or office use
+EX073,107,2024-06-13,Hilton Hotels,642.63,Hilton Hotels expense for business trip or office use
+EX074,109,2024-06-07,Staples,407.38,Staples expense for business trip or office use
+EX075,107,2024-06-20,Staples,533.74,Staples expense for business trip or office use
+EX076,104,2024-06-18,Uber,75.0,Transport to client site
+EX077,104,2024-06-18,Uber,75.0,Transport to client site
+EX078,108,2024-06-10,Hilton Hotels,620.0,Hotel stay for training
+EX079,108,2024-06-10,Hilton Hotels,620.0,Hotel stay for training
+EX080,106,2024-06-25,Amazon Business,215.0,Office supplies purchase
+EX081,106,2024-06-25,Amazon Business,215.0,Office supplies purchase

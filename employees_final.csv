@@ -1,0 +1,11 @@
+employee_id,first_name,last_name,department,location,hire_date,job_title
+101,Sarah,Jones,Marketing,NY,1/1/2017,Manager
+102,Mark,Lee,Sales,CA,1/1/2018,Sales Rep
+103,Emily,Chen,Finance,TX,1/1/2019,Analyst
+104,John,Smith,HR,FL,1/1/2020,Coordinator
+105,Tina,Patel,IT,IL,12/31/2020,Sys Admin
+106,Raj,Singh,Finance,TX,12/31/2021,Controller
+107,Linda,Garcia,Marketing,NY,12/31/2022,Brand Lead
+108,Carlos,Reyes,Sales,CA,12/31/2023,Sales Exec
+109,Ming,Zhao,IT,IL,12/30/2024,IT Support
+110,Anna,Williams,HR,FL,12/30/2025,HRBP
