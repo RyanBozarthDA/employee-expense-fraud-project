@@ -1,0 +1,61 @@
+---Which employee IDs have duplicate entries--
+
+Select employee_id, expense_date, vendor, amount, COUNT(*) AS dup_count FROM Expenses
+GROUP BY expense_date, vendor, amount
+HAVING dup_count > 1;
+
+
+
+---Employee spending total---
+
+Select e.employee_id, e.first_name, e.last_name, e.job_title, SUM(x.amount) AS total_spent
+FROM employees e
+JOIN Expenses x ON e.employee_id = x.employee_id
+GROUP BY e.employee_id
+ORDER BY total_spent desc
+
+---employees job title not relative to vendors (possible flags)---
+
+SELECT e.employee_id, e.first_name, e.last_name, e.job_title, v.vendor_name, v.category, x.amount, x.expense_date
+FROM expenses x
+JOIN employees e ON e.employee_id = x.employee_id
+JOIN vendors v ON x.vendor = v.vendor_name
+WHERE e.job_title LIKE '%IT%' AND v.category IN ('Lodging', 'Office Supplies') OR e.job_title LIKE '%HR%' 
+AND v.category IN ('Travel', 'Transportation');
+
+---Which employees use vendors the most SUM---
+
+SELECT e.employee_id, e.first_name, e.last_name, e.job_title, x.vendor, sum(x.amount) AS total_spent
+FROM expenses x
+JOIN employees e ON e.employee_id = x.employee_id
+GROUP BY e.employee_id, x.vendor
+ORDER BY total_spent DESC
+
+---How many times has employee used vendor---
+SELECT e.employee_id, e.first_name, e.last_name, e.job_title, x.vendor, COUNT(*) AS amount_times
+FROM expenses x
+JOIN employees e ON e.employee_id = x.employee_id
+GROUP BY e.employee_id, x.vendor
+ORDER BY amount_times DESC
+
+
+---avg expense by each department--
+
+SELECT e.department, round(avg(x.amount), 2) AS avg_spent
+FROM employees e
+JOIN Expenses x ON e.employee_id = x.employee_id
+GROUP BY department
+ORDER BY avg_spent desc
+
+---sum expense each dep---
+SELECT e.department, sum(x.amount) AS sum_spent
+FROM employees e
+JOIN Expenses x ON e.employee_id = x.employee_id
+GROUP BY department
+ORDER BY sum_spent desc
+
+--Flagged Results Table---
+SELECT x.employee_id, e.first_name, e.last_name, x.vendor, x.expense_date, x.amount, e.job_title, v.vendor_name, v.category
+FROM expenses x
+JOIN employees e ON e.employee_id = x.employee_id
+JOIN vendors v ON v.vendor_name = x.vendor
